@@ -1,0 +1,120 @@
+body {
+  background-color: #f3f3f3;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-size: 16px;
+}
+
+#nav-custom {
+  background-color: #945FEF;
+  border: 0;
+  border-radius: 0;
+  padding: 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { 
+  color: #fff;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 700;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  color: #fff;
+  text-decoration: none;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fff;
+}
+
+.navbar-header button.navbar-toggle:hover, .navbar-header .icon-bar:hover, 
+.navbar-header button.navbar-toggle:focus, .navbar-header .icon-bar:focus {
+  background-color: transparent;
+}
+
+#nav-list {
+  background-color: #49346E;
+}
+
+#nav-list li {
+  padding: 15px 0;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+#nav-list li:hover {
+  background-color:#2A1A47;
+}
+
+#nav-list li a{
+  color: #fff;
+}
+
+/* MAIN CONTENT SECTION */
+h2 {
+  color: #945FEF;
+  font-size: 36px;
+  margin-top: 25px;
+  font-weight: 500;
+}
+
+#main {
+  color: #303030;
+  width: 99%;
+  margin: 15px auto;
+}
+
+.menu-container {
+  background-color: #fff;
+  padding: 25px;
+  margin-top: 25px;
+}
+
+h3 {
+  font-size: 26px;
+  color: #945FEF;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+#chicken-menu, #beef-menu, #sushi-menu {
+  border: 1px solid #c9c9c9;
+  border-radius: 18px;
+}
+
+p.menu-description {
+  font-size: 16px;
+  line-height: 1.5;
+  font-weight: 400;
+  color: 3d3d3d;
+}
+
+a.scroll-up:hover {
+  color: #945FEF;
+}
+
+@media (max-width: 767px) {
+  #main {
+    width: 85%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #main {
+    width: 88%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  #main {
+    width: 92%;
+  }
+}
